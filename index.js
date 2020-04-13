@@ -1,4 +1,4 @@
-// Your code here
+// .map() functions
 
 function mapToNegativize(sourceArray){ 
   return sourceArray.map(x => x*-1);
@@ -14,4 +14,10 @@ function mapToDouble(sourceArray){
 
 function mapToSquare(sourceArray){
   return sourceArray.map(x => x**2);
+}
+
+// .reduce functions
+
+function reduceToTotal(sourceArray, startingPoint){
+  return 
 }

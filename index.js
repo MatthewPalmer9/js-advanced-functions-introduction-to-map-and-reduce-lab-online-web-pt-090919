@@ -13,5 +13,5 @@ function mapToDouble(sourceArray){
 }
 
 function mapToSquare(sourceArray){
-  return sourceArray.map(x => x^2);
+  return sourceArray.map(x => x**2);
 }

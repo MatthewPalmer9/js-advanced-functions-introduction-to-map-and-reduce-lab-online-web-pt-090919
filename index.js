@@ -26,5 +26,5 @@ function reduceToTotal(sourceArray, startingPoint = 0){
 }
 
 function reduceToAllTrue(sourceArray){
-  
+  const reducer = function(a, c)
 }

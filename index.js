@@ -19,8 +19,8 @@ function mapToSquare(sourceArray){
 // .reduce functions
 
 function reduceToTotal(sourceArray, startingPoint = 0){
-  const reduceNumber = function(start, end){
-    return start + end 
+  const reduceNumber = function(startPoint, endPoint){
+    return startPoint + endPoint
   }
-  return sourceArray.reduce()
+  return sourceArray.reduce(reduceNumber, startingPoint);
 }

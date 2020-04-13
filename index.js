@@ -33,4 +33,5 @@ function reduceToAllTrue(sourceArray){
       return false
     }
   }
+  return sourceArray.reduce(reducer, )
 }

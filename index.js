@@ -30,7 +30,7 @@ function reduceToAllTrue(sourceArray){
     if(!!a == true && !!c == true){
       return true;
     } else {
-      return false;
+      return !!c;
     }
   }
 }

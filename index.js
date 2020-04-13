@@ -24,3 +24,7 @@ function reduceToTotal(sourceArray, startingPoint = 0){
   }
   return sourceArray.reduce(reduceNumber, startingPoint);
 }
+
+function reduceToAllTrue(sourceArray){
+  
+}

@@ -1,5 +1,3 @@
 // Your code here
 
-function mapToNegativise(arr){
-  arr.map()
-}
+const mapToNegativise(arr).map(x => x*-1)

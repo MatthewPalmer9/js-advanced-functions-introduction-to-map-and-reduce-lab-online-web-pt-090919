@@ -44,5 +44,5 @@ function reduceToAnyTrue(sourceArray){
       return !!c
     }
   }
-  return sourceArray.reduce(reducer, )
+  return sourceArray.reduce(reducer, false)
 }

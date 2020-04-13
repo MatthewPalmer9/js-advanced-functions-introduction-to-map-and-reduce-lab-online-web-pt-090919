@@ -35,3 +35,14 @@ function reduceToAllTrue(sourceArray){
   }
   return sourceArray.reduce(reducer, true)
 }
+
+function reduceToAnyTrue(sourceArray){
+  const reducer = function(a, c){
+    if(!!a == true || !!c == true){
+      return true
+    } else {
+      return !!c
+    }
+  }
+  return sourceArray.reduce(reducer, )
+}
